@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+}
+
+#container{
+    background-color: rgb(50, 122, 238);
+    width: 1000px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows:  auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.board{ 
+    background-color: white;
+}
+
+button{
+    width: 200px;
+    height: 75px;
+}
