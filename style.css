@@ -3,19 +3,19 @@ body{
 }
 
 #container{
-    background-color: rgb(50, 122, 238);
+    background-color: white;
     width: 1000px;
     height: 1000px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-template-rows:  auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows:  repeat(16, auto);
 }
 
 .board{ 
     background-color: white;
 }
 
-button{
+#buttSize{
     width: 200px;
     height: 75px;
 }
